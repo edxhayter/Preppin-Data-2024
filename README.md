@@ -51,6 +51,7 @@ FROM TIL_PLAYGROUND.PREPPIN_DATA_INPUTS.PD2024_WK01;
 **Explanation:** In order to store data effectively, data should be stored with the correct types. We use DATE and TO_DECIMAL to adjust the date to date format and the fare to a numeric datatype with 2 decimal places. Ordinarily storing a boolean as 1/0 is better for reducing size of data but we had a particular request in this challenge to convert to a YES/NO string. We use a simple case statement to convert this column.
 
 **3. Filtering so the queries return two tables:**
+
 FLOW_CARD holders in Query 1
 ```sql
 SELECT 
